@@ -10,5 +10,5 @@ public interface Component {
     void remove(Component component);
     Type getType();
     Component getComponent(int index);
-    List<Component> getComponents(String text);
+    List<Component> getComponents();
 }

@@ -1,11 +1,11 @@
 package by.nareiko.ih.parser.impl;
 
 import by.nareiko.ih.composite.Component;
-import by.nareiko.ih.composite.impl.Composite;
+import by.nareiko.ih.composite.impl.TextComponent;
 import by.nareiko.ih.composite.impl.Type;
-import by.nareiko.ih.parser.Parser;
+import by.nareiko.ih.parser.TextParser;
 
-public class LexemeParser implements Parser {
+public class LexemeParser implements TextParser {
     private static final String LEXEME_REGEX = " ";
     private static LexemeParser instance;
     private static SymbolParser symbolParser;
@@ -21,7 +21,7 @@ public class LexemeParser implements Parser {
 
     @Override
     public Component parse(String value) {
-        componentSentence = new Composite(Type.SENTENCE);
+        componentSentence = new TextComponent(Type.SENTENCE);
         String[] words = value.split(LEXEME_REGEX);
         for (String element : words) {
             symbolParser = SymbolParser.getInstance();

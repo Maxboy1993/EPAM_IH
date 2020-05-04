@@ -11,6 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -24,12 +26,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/by/nareiko/ih/lib/log4j-core-2.13.1.jar!/" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/log4j-core-2.13.1.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="reader.impl" />
+      <recent name="parser.impl" />
+      <recent name="action" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NareikoML\CompositeAndChainResponsibilityPatterns\src" />
+      <recent name="D:\NareikoML\CompositeAndChainResponsibilityPatterns" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NareikoML\CompositeAndChainResponsibilityPatterns\src\by\nareiko\ih" />
     </key>
@@ -99,6 +117,11 @@
       <workItem from="1587483487171" duration="19000" />
       <workItem from="1587536986527" duration="8662000" />
       <workItem from="1587557787151" duration="19000" />
+      <workItem from="1587709925491" duration="285000" />
+      <workItem from="1587710499221" duration="408000" />
+      <workItem from="1588054642887" duration="42000" />
+      <workItem from="1588517384864" duration="3675000" />
+      <workItem from="1588568256335" duration="2174000" />
     </task>
     <servers />
   </component>
@@ -110,18 +133,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1587543736845" />
-    <state x="363" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587545759406">
+    <state x="371" y="125" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588569267537">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="363" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1587545759406" />
+    <state x="371" y="125" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.689@0.0.1280.689" timestamp="1588569267537" />
+    <state x="363" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588521493610">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="363" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1588521493610" />
     <state x="371" y="94" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587479169692">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="94" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1587479169692" />
-    <state x="327" y="88" key="FileChooserDialogImpl" timestamp="1587541848842">
+    <state x="327" y="88" key="FileChooserDialogImpl" timestamp="1588569223558">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="327" y="88" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1587541848842" />
+    <state x="327" y="88" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1588569223558" />
     <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587545264343">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -154,13 +181,17 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="123" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1587543538199" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1587541854402">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1588569232319">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1587541854402" />
-    <state x="339" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1587557801885">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1588569232319" />
+    <state x="339" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1588568260008">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="339" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1587557801885" />
+    <state x="339" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1588568260008" />
+    <state x="412" y="61" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588569268938">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="412" y="61" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.689@0.0.1280.689" timestamp="1588569268938" />
   </component>
 </project>

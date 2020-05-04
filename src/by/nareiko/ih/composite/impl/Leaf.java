@@ -36,8 +36,8 @@ public class Leaf implements Component {
     }
 
     @Override
-    public List<Component> getComponents(String text) {
-        return null;
+    public List<Component> getComponents(){
+        throw new UnsupportedOperationException("Cannot be returned components");
     }
 
     @Override

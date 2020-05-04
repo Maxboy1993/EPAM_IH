@@ -1,9 +1,9 @@
 
-z
-java:S1450"XRemove the "component" field and declare it as a local variable in the relevant methods.(°ƒí†ûÿÿÿÿ8×©Ü‡š.
-‚
-java:S1450"`Remove the "componentSentence" field and declare it as a local variable in the relevant methods.(‡Ôš´ùÿÿÿÿ8åÐ›‡š.
 X
 java:S2696"6Make the enclosing method "static" or remove this set.(Îß”Èúÿÿÿÿ8¤ù˜‡š.
 }
 java:S1450"[Remove the "symbolParser" field and declare it as a local variable in the relevant methods.(Ãœð”ùÿÿÿÿ8¯œè‡š.
+z
+java:S1450"XRemove the "component" field and declare it as a local variable in the relevant methods.(°ƒí†ûÿÿÿÿ8×©Ü‡š.
+‚
+java:S1450"`Remove the "componentSentence" field and declare it as a local variable in the relevant methods.(‡Ôš´ùÿÿÿÿ8åÐ›‡š.

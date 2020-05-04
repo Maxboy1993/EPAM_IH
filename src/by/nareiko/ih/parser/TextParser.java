@@ -2,6 +2,6 @@ package by.nareiko.ih.parser;
 
 import by.nareiko.ih.composite.Component;
 
-public interface Parser {
+public interface TextParser {
     Component parse(String value);
 }

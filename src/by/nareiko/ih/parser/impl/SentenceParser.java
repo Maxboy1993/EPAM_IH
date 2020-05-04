@@ -1,16 +1,16 @@
 package by.nareiko.ih.parser.impl;
 
 import by.nareiko.ih.composite.Component;
-import by.nareiko.ih.composite.impl.Composite;
+import by.nareiko.ih.composite.impl.TextComponent;
 import by.nareiko.ih.composite.impl.Type;
-import by.nareiko.ih.parser.Parser;
+import by.nareiko.ih.parser.TextParser;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SentenceParser implements Parser {
+public class SentenceParser implements TextParser {
     private static final String SENTENCE_DELIMETER = "[\\.?!]\\s? | [\\.{3}]\\s?";
     private static  SentenceParser instance;
     private static LexemeParser wordParser;
@@ -26,7 +26,7 @@ public class SentenceParser implements Parser {
 
     @Override
         public Component parse(String value) {
-        componentParagraph = new Composite(Type.PARAGRAPH);
+        componentParagraph = new TextComponent(Type.PARAGRAPH);
         List<String> sentences = new ArrayList<>();
         Pattern patternSentence = Pattern.compile(SENTENCE_DELIMETER);
         Matcher matcherSentence = patternSentence.matcher(value);

@@ -5,13 +5,13 @@ import by.nareiko.ih.composite.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Composite implements Component {
+public class TextComponent implements Component {
     private static final char WORD_DELIMETER = ' ';
     private static final String PARAGRAPH_DELIMETER = "\n    ";
     private List<Component> components = new ArrayList<>();
     private Type type;
 
-    public Composite(Type type){
+    public TextComponent(Type type){
         this.type = type;
     }
 
@@ -36,7 +36,7 @@ public class Composite implements Component {
     }
 
     @Override
-    public List<Component> getComponents(String text) {
+    public List<Component> getComponents() {
         return components;
     }
 
@@ -44,9 +44,9 @@ public class Composite implements Component {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Composite composite = (Composite) o;
-        return components.equals(((Composite) o).components) &&
-                type == ((Composite) o).type;
+        TextComponent composite = (TextComponent) o;
+        return components.equals(((TextComponent) o).components) &&
+                type == ((TextComponent) o).type;
     }
 
     @Override

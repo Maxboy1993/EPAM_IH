@@ -1,11 +1,11 @@
 package by.nareiko.ih.parser.impl;
 
 import by.nareiko.ih.composite.Component;
-import by.nareiko.ih.composite.impl.Composite;
+import by.nareiko.ih.composite.impl.TextComponent;
 import by.nareiko.ih.composite.impl.Type;
-import by.nareiko.ih.parser.Parser;
+import by.nareiko.ih.parser.TextParser;
 
-public class ParagraphParser implements Parser {
+public class ParagraphParser implements TextParser {
     private static ParagraphParser instance;
     private static final String PARAGRAPH_REGEX = "\\s{4}";
     private  SentenceParser sentenceParser;
@@ -20,7 +20,7 @@ public class ParagraphParser implements Parser {
     }
     @Override
     public Component parse(String value) {
-        componentText = new Composite(Type.TEXT);
+        componentText = new TextComponent(Type.TEXT);
         String[] paragraphs = value.split(PARAGRAPH_REGEX);
         for (String element : paragraphs) {
              sentenceParser = SentenceParser.getInstance();

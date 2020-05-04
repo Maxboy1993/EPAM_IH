@@ -1,0 +1,8 @@
+
+S
+java:S1854/"=Remove this useless assignment to local variable "composite".(ı„²
+a
+java:S1301A"KReplace this "switch" statement by "if" statements to increase readability.(ŒøÊó
+D
+java:S1481/".Remove this unused "composite" local variable.(ı„²
+n	java:S131A"YComplete cases by adding the missing enum constants or add a default case to this switch.(ŒøÊó

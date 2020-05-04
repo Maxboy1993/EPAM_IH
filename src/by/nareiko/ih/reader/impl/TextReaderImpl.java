@@ -14,9 +14,9 @@ import java.util.List;
 
 public class TextReaderImpl implements TextReader {
 
-    private static final String FILE_NAME = "src/by/nareiko/informatinHandling/resources/resource";
+    private static final String FILE_NAME = "resources/resource";
     static Logger logger = LogManager.getLogger();
-    
+
     @Override
     public String read(String filePath) throws ReaderException {
         if (filePath == null || filePath.isEmpty()){
